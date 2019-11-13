@@ -10,7 +10,7 @@ public class Fizzbuzz
 public static void main(String[]args){ 
     { 
         int n = 100;
-   for(int i = 2; i<=n; i++){
+   for(int i = 1; i<=n; i++){
   
    boolean DivisiblebyThree = i % 3==0;
     boolean DivisiblebyFive = i % 5 == 0;
