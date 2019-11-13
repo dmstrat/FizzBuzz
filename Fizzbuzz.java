@@ -14,12 +14,12 @@ public static void main(String[]args){
   
    boolean DivisiblebyThree = i % 3==0;
     boolean DivisiblebyFive = i % 5 == 0;
-       
+     boolean NotDivisiblebyThree = i % 3!= 0;  
        if 
        (DivisiblebyThree) System.out.print("Fizz");
         if(DivisiblebyFive)System.out.print("Buzz");
           
-        else if (i % 3 != 0)System.out.print(i);
+        else if (NotDivisiblebyThree)System.out.print(i);
         System.out.println();
 }
 }
